@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Section</title>
+     <link rel="stylesheet" href="blog.css">
+
+</head>
+<body>
+
+    <!-- First Blog -->
+    <div class="blog">
+        <h1>My Blog</h1>
+       <p style="text-align: center;color: rgb(35, 35, 145);font-family:'Poppins', sans-serif;">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore veritatis nobis alias voluptates fugiat possimus impedit necessitatibus! Fugit exercitationem possimus quia repudiandae esse iusto vero modi dolorum rem, assumenda porro?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis explicabo quisquam sit voluptatum nam recusandae fugit non, voluptate reprehenderit unde ab! Veniam accusamus optio nulla fugit, in sunt dolor illum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum illo tempore, sequi tempora architecto enim necessitatibus mollitia at excepturi fugit, soluta quod commodi numquam impedit? Tempora provident amet quia quibusdam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit quia, cumque distinctio asperiores porro corrupti expedita incidunt, exercitationem, dolor iusto. Molestiae doloremque velit recusandae eos maiores, impedit illum alias.
+    </p>
+        <div class="like-counter">Likes: <span id="likeCount1">0</span></div>
+        <button onclick="increaseLikes('likeCount1')">Like</button>
+        <div class="comments-section">
+            <h3>Comments</h3>
+            <textarea id="comments1" rows="4" cols="50"></textarea>
+            <button onclick="saveComments('comments1')">Save Comments</button>
+        </div>
+    </div>
+   <br> <br> <br> <br> <br>
+   
+
+    <script src="blog.js"></script>
+</body>
+</html>
